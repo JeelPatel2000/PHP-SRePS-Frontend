@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "../styles/login.css";
 import PersonIcon from "@material-ui/icons/Person";
 import LockIcon from "@material-ui/icons/Lock";
-import Input from "./commans/input";
+import Input from "./common/input";
 class Login extends Component {
   state = {
     account: {
@@ -19,7 +19,7 @@ class Login extends Component {
       errors.username = "Please enter Username";
     if (account.password.trim() === "")
       errors.password = "Please enter password";
-      
+
     return Object.keys(errors).length === 0 ? null : errors;
   };
   handleSubmit = (e) => {
