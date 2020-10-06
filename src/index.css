@@ -6,3 +6,10 @@
 .nav-link {
   margin-left: 25px;
 }
+
+.productHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
