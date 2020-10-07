@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { ProductsContext } from "../providers/productsProvider";
-import { deleteProduct } from "../services/db";
+import { ProductsContext } from "../../providers/productsProvider";
+import { deleteProduct } from "../../services/db";
 
 class ProductsTable extends Component {
   static contextType = ProductsContext;

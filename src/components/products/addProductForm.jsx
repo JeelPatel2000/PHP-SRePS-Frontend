@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Form, Button } from "react-bootstrap";
-import { addProduct } from "../services/db";
-import { ProductsContext } from "../providers/productsProvider";
+import { addProduct } from "../../services/db";
+import { ProductsContext } from "../../providers/productsProvider";
 
 class AddProductForm extends Component {
   static contextType = ProductsContext;
