@@ -6,7 +6,7 @@ class Products extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="productHeader">
+        <div className="routeComponentHeader">
           <h1>Products</h1>
           <AddProductModal></AddProductModal>
         </div>
