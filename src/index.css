@@ -1,15 +1,29 @@
 .container {
-  padding: 40px;
-  max-width: 100%;
+	padding: 40px;
+	max-width: 100%;
 }
 
 .nav-link {
-  margin-left: 25px;
+	margin-left: 25px;
 }
 
 .routeComponentHeader {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-bottom: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+#invoiceButtonDiv {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.logout_btn {
+	margin-left: 740px;
+}
+
+.table-row {
+	cursor: pointer;
 }
