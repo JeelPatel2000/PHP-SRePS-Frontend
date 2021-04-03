@@ -39,9 +39,15 @@ class Login extends Component {
 			localStorage.setItem("isloggedin", true);
 			setLogin(true);
 		} else {
+			let errors = {};
 			// display error
-			console.log(username, password);
-			console.log("Wrong credentials!");
+			if (username != "admin") {
+				errors.username = "Please enter the correct username";
+			}
+			if (password != "admin") {
+				errors.password = "Please enter the correct password";
+			}
+			this.setState({errors});
 		}
 		// console.log("submitted");
 	};
